@@ -1,0 +1,20 @@
+{
+	"name": "djccopyexcel999",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "djcAzureBlobStorage999",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "BOA01012019-12312019",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "BOAExport01012020-12312020.xlsx",
+				"container": "djcblobstorage999"
+			}
+		},
+		"schema": []
+	}
+}
