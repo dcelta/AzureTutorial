@@ -1,0 +1,21 @@
+{
+	"name": "djcFileServer1999",
+	"properties": {
+		"description": "Tutorial",
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "d:\\dev",
+			"userId": "dcelta",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "djcazurekeyvault999",
+				"secretVersion": ""
+			}
+		}
+	}
+}
